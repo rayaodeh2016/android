@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    android:orientation="vertical"
+    android:weightSum="9"
+
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+       >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:scrollbarSize="20dp">
+
+            <TextView
+                android:id="@+id/tittel_User"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/caveat_bold"
+                android:text="All Customers"
+                android:textColor="#FFFCFC"
+                android:textSize="30sp" />
+            >
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/recycleviewbg"
+        android:padding="10dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycelView11"
+            android:layout_width="393dp"
+            android:layout_height="595dp"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

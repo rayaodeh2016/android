@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="smallSize">30sp</dimen>
+    <dimen name="bigSize">50sp</dimen>
+    <dimen name="bigSize_head">80sp</dimen>
+    <dimen name="landSize">20sp</dimen>
+    <dimen name="landSize_head">20sp</dimen>
+    <dimen name="xhdpi">16sp</dimen>
+    <dimen name="xhdpi_h">26sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="ic_clear_margin">56dp</dimen>
+
+</resources>

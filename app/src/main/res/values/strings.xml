@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name" translatable="false"></string>
+    <string name="bold">bold</string>
+    <string name="login" translatable="false">Login Page</string>
+    <string name="password" translatable="false">password</string>
+    <string name="name" translatable="false">Username</string>
+    <string name="login_button" translatable="false">login</string>
+    <string name="tittel_font">Josefin Sans</string>
+    <string name="not_register" translatable="false">Dont have an account?</string>
+    <string name="SignUpPage" translatable="false">Create account</string>
+    <string name="re_password" translatable="false">confirm password</string>
+    <string name="email" translatable="false">email</string>
+    <string name="create_account" translatable="false">create account</string>
+    <string name="nameus" translatable="false">Name</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="registerd_login" translatable="false">Registerd? Login</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="raya_odeh">Raya Odeh</string>
+    <string name="user_managment">User Management</string>
+    <string name="logout">Logout</string>
+    <string name="the_sales">the sales</string>
+    <string name="order_managment">Menu Management</string>
+    <string name="customers_managment">Customers Management</string>
+    <string name="Admin_Managment">Admin Management</string>
+    <string name="Feedback">Feedback</string>
+
+
+    <string name="textview">Tittel</string>
+    <string name="textview2">Time</string>
+    <string name="lastname">Last Name</string>
+    <string name="description">Description</string>
+    <string name="name1">Name</string>
+    <string name="save_edit">Save Edit</string>
+    <string-array name="usertype">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="foodType">
+        <item>Select Food Type</item>
+        <item>breakfast</item>
+        <item>lunch</item>
+        <item>dinner</item>
+        <item> Candy</item>
+        <item>Ice cream</item>
+        <item> cold drinks</item>
+        <item>  hot drinks</item>
+        <item>Cake</item>
+    </string-array>
+    <string name="title_activity_maini">maini</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_order_managment">OrderManagment</string>
+    <string name="add_new">Add New</string>
+
+</resources>
